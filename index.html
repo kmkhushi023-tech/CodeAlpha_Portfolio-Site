@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Khushi | Aspiring Web Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<script src="script.js"></script>script>
+<nav>
+<div class="wrap">
+<a href="#home" class="logo">Khushi.</a>
+<div class="links" id="links">
+<a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+</div>
+<div>
+<button class="icon-btn" id="theme" aria-label="Toggle dark/light mode">🌙</button>
+<button class="icon-btn" id="menu" aria-label="Menu">☰</button>
+</div>
+</div>
+</nav>
+
+<header class="hero" id="home">
+<div class="wrap">
+<p class="hi">👋 Hello, I'm</p>
+<h1><span class="grad">Khushi</span></h1>
+<p class="role">B.Tech Computer Science Student | Aspiring Web Developer</p>
+<a href="#projects" class="btn p">View Projects</a>
+<a href="#contact" class="btn o">Contact Me</a>
+</div>
+</header>
+
+<section id="about"><div class="wrap reveal">
+<h2>About Me</h2><p class="sub">A little about who I am</p>
+<div class="card"><p>I'm a final-year Computer Science and Engineering student with a strong interest in building clean, responsive and user-friendly websites. I enjoy turning ideas into interactive web experiences using HTML, CSS and JavaScript, and I'm comfortable with Python and MS Excel for problem solving and data handling.</p>
+<p>I'm a quick learner, detail-oriented and eager to contribute in a real-world team. I'm currently looking for internship opportunities where I can apply my skills, learn from professionals and grow as a developer.</p></div>
+</div></section>
+
+<section id="education"><div class="wrap reveal">
+<h2>Education</h2><p class="sub">My academic background</p>
+<div class="grid two"><div class="card">
+<span class="tag">Final Year</span>
+<h3>B.Tech in Computer Science and Engineering</h3>
+<p>Coursework in programming, data structures, databases and web technologies, along with hands-on projects.</p>
+</div></div>
+</div></section>
+
+<section id="skills"><div class="wrap reveal">
+<h2>Skills</h2><p class="sub">Technologies I work with</p>
+<div class="skills">
+<div class="card skill"><span>🌐</span><b>HTML5</b></div>
+<div class="card skill"><span>🎨</span><b>CSS3</b></div>
+<div class="card skill"><span>⚡</span><b>JavaScript</b></div>
+<div class="card skill"><span>📊</span><b>MS Excel</b></div>
+<div class="card skill"><span>🐍</span><b>Python</b></div>
+</div>
+</div></section>
+
+<section id="projects"><div class="wrap reveal">
+<h2>Projects</h2><p class="sub">Some things I've built</p>
+<div class="grid projects">
+<div class="card proj"><div class="thumb">🧮</div><h3>Interactive Calculator</h3><p>A responsive calculator with a modern glassmorphism UI and keyboard support.</p>
+<span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+<div class="row"><a class="btn p" href="#" target="_blank" rel="noopener">Live Demo</a><a class="btn o" href="#" target="_blank" rel="noopener">GitHub Code</a></div></div>
+<div class="card proj"><div class="thumb">🖼️</div><h3>Image Gallery</h3><p>A grid-based gallery with hover effects and a lightbox preview for images.</p>
+<span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+<div class="row"><a class="btn p" href="#" target="_blank" rel="noopener">Live Demo</a><a class="btn o" href="#" target="_blank" rel="noopener">GitHub Code</a></div></div>
+<div class="card proj"><div class="thumb">💼</div><h3>Portfolio Site</h3><p>This personal portfolio with dark/light mode, smooth scrolling and a validated contact form.</p>
+<span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+<div class="row"><a class="btn p" href="#" target="_blank" rel="noopener">Live Demo</a><a class="btn o" href="#" target="_blank" rel="noopener">GitHub Code</a></div></div>
+</div>
+</div></section>
+
+<section id="contact"><div class="wrap reveal">
+<h2>Contact</h2><p class="sub">Let's connect for internships and opportunities</p>
+<form id="form" novalidate>
+<div class="f"><label for="name">Name</label><input id="name" type="text" placeholder="Your name"><div class="err"></div></div>
+<div class="f"><label for="email">Email</label><input id="email" type="email" placeholder="you@example.com"><div class="err"></div></div>
+<div class="f"><label for="subject">Subject</label><input id="subject" type="text" placeholder="Subject"><div class="err"></div></div>
+<div class="f"><label for="message">Message</label><textarea id="message" rows="5" placeholder="Write your message..."></textarea><div class="err"></div></div>
+<button class="btn p" type="submit">Send Message ✉️</button>
+</form>
+</div></section>
+
+<footer>© <span id="yr"></span> Khushi. Built with HTML, CSS &amp; JavaScript.</footer>
+
+<div class="modal" id="modal"><div class="box"><div class="ok">🎉</div><h3>Message Sent!</h3><p id="mtxt">Thank you! I'll get back to you soon.</p><button class="btn p" id="close">Close</button></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
